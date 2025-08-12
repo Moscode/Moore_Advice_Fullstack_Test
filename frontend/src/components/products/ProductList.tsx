@@ -157,7 +157,7 @@ const ProductList: React.FC = () => {
           >
             <MenuItem value="">All Categories</MenuItem>
             {categories.map((category) => (
-              <MenuItem key={category.slug} value={category.slug}>
+              <MenuItem key={category.id} value={category.id}>
                 {category.name}
               </MenuItem>
             ))}

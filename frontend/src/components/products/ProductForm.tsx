@@ -86,7 +86,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ isEdit = false }) => {
         if (isEdit && id) {
           await updateProduct(parseInt(id), values);
         } else {
-          await createProduct(values);
+          await createProduct(values as Omit<Product, 'id'>);
         }
         navigate('/products');
       } catch (error) {
