@@ -105,7 +105,7 @@ An admin user is created by the seeder with the following credentials:
 ![Products List](/screenshots/products.png)
 
 ### Add/Edit Product
-![Product Form](/screenshots/product-form.png)
+![Product Form](https://i.imgur.com/bL48nxo.png)
 
 ### Categories Management
 ![Categories](/screenshots/categories.png)
