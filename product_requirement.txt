@@ -1,0 +1,12 @@
+Frontend (React)
+Create a simple and functional interface that prioritizes core functionality.
+1. Core Components 
+Product List: Display products in a table/grid with category filter
+Product Form: Create/Edit product form with category dropdown
+Simple Navigation: Basic header with logout functionality
+2. Key Features 
+Basic search functionality
+Category filtering
+Form validation
+Responsive design (mobile-friendly)
+Loading states and error handling
